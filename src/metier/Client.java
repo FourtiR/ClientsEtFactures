@@ -62,7 +62,8 @@ public class Client
 
 	public List<Facture> getFactures()
 	{
-		return null;
+		ArrayList<Facture> copy = new ArrayList <>();
+		return copy;
 	}
 	
 	/**
