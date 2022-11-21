@@ -22,7 +22,7 @@ public class Facture
 	
 	public Client getClient()
 	{
-		return null;
+		return client;
 	}
 
 	/**
@@ -32,7 +32,7 @@ public class Facture
 	
 	public int getMontant()
 	{
-		return 0;
+		return montant;
 	}
 
 	/**
@@ -42,7 +42,7 @@ public class Facture
 	
 	public boolean estReglee()
 	{
-		return true;
+		return false;
 	}
 
 	/**
@@ -52,7 +52,7 @@ public class Facture
 	
 	public LocalDate getDate()
 	{
-		return null;
+		return date;
 	}
 
 	/**

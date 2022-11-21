@@ -96,7 +96,7 @@ public class Client
 	 */
 	public static List<Client> tous()
 	{
-		return null;
+		return tous();
 	}
 	
 	/**
