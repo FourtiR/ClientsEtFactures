@@ -6,6 +6,7 @@ import java.util.List;
 public class Client
 {
 	private String nom;
+	private ArrayList<Facture> factures = new ArrayList<>();
 	/** 
 	 * Crée un client.
 	 * @param nom le nom du client. 
@@ -44,7 +45,14 @@ public class Client
 	
 	public Facture createFacture(int montant)
 	{
-		return null;
+		Facture facture = new Facture(this, montant);
+		add(facture);
+		return facture;
+	}
+	
+	void add(Facture commande)
+	{
+		factures.add(commande);
 	}
 	
 	/**
